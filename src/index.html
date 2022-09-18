@@ -8,7 +8,8 @@
     <meta name="robots" content="all">
     <meta property="og:title" content="Это моя первая страница">
     <title>Андрей Имехенов - Веб-разработчик</title>
-</head>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css"> </head>
 
 <body>
     <header>
@@ -16,12 +17,12 @@
             <div class="logo">Андрей Имехенов</div>
             <div class="menu">
                 <ul>
-                    <li><a href="">Обо мне</a></li>
-                    <li><a href="">Услуги</a></li>
-                    <li><a href="">Кейсы</a></li>
-                    <li><a href="">Прайс</a></li>
-                    <li><a href="">Отзывы</a></li>
-                    <li><a href="">Контакты</a></li>
+                    <li>Обо мне</li>
+                    <li>Услуги</li>
+                    <li>Кейсы</li>
+                    <li>Прайс</li>
+                    <li>Отзывы</li>
+                    <li>Контакты</li>
                 </ul>
             </div>
         </nav>
@@ -34,13 +35,14 @@
             <input type="submit" value="Мои работы"> </div>
     </div>
     <div class="about_me">
+        <h2>Обо мне</h2> <img src="../src/img/line.jpg" alt="" class="line"> <img src="img/mini.jpg" alt="" class="mini">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolore impedit architecto. Corporis numquam magni amet vero quae eaque, consectetur?
             <br>
             <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quos incidunt possimus ratione hic fuga facere voluptatem blanditiis eaque, maxime.</p>
-    </div>
-    <input type="text" value="Скачать резюме">
+        <input type="text" value="Скачать резюме"> </div>
     <div class="skills">
         <h2>Что я умею</h2>
+        <img src="img/line.jpg" class="line2" alt="">
         <div>
             <h3>Веб-дизайн<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eveniet laboriosam id quae explicabo voluptatum recusandae quod beatae, odit repellendus.</p></h3> </div>
         <div>
@@ -51,23 +53,43 @@
             <h3>Маркетинг<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eveniet laboriosam id quae explicabo voluptatum recusandae quod beatae, odit repellendus.</p></h3></div>
     </div>
     <div class="keys">
-        <h4>Кейсы</h4>
+        <h2>Кейсы</h2>
+        <img src="img/line.jpg" class="line3" alt="">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, natus iure fuga ipsam veritatis ad quos, impedit magni itaque ut.</p>
-        <h5>CLIENT</h5>
+        <img src="img/foto.jpg" class="foto" alt="">
+        <span class="klient">
+        <h3>CLIENT</h3>
         <p>Какая-то компания</p>
-        <h5>WEBSITE</h5>
+        <h3>WEBSITE</h3>
         <p>Ссылка</p>
-        <h4>Название проекта</h4>
+        <input type="text" value="VISIT LIVE SITE">
+        </span>
+        <span class="namek">
+        <h3>Название проекта</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum quam deserunt, doloremque repellat ut rerum iste tempora sit corporis quis.</p>
+        </span>
     </div>
+    <br>
     <div class="cost">
         <h2>Расчёт стоимости</h2>
         <h3>ТИП САЙТА</h3>
-        <select name="design" id="design"></select>
+        <select>
+            <option>Выберите пункт</option>
+            <option>Пункт 1</option>
+            <option>Пункт 2</option>
+        </select>
         <h3>ДИЗАЙН</h3>
-        <select name="design" id="design"></select>
+        <select>
+            <option>Выберите пункт</option>
+            <option>Пункт 1</option>
+            <option>Пункт 2</option>
+        </select>
         <h3>АДАПТИВНОСТЬ</h3>
-        <select name="design" id="design"></select>
+        <select>
+            <option>Выберите пункт</option>
+            <option>Пункт 1</option>
+            <option>Пункт 2</option>
+        </select>
         <p>Сроки 0</p>
         <p>Стоимость 0</p>
     </div>
