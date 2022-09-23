@@ -1,0 +1,29 @@
+body{
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+.main_block{
+    border: 2px solid red;
+    max-width: 800px;
+    height: 8000px;
+    margin: 0 auto;
+}
+.main_block div{
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.block1{
+    background-color: red;
+}
+.block2{
+    background-color: purple;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.block3{
+    background-color: blue;
+}
